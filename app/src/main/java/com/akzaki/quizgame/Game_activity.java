@@ -33,10 +33,7 @@ public class Game_activity extends AppCompatActivity implements View.OnClickList
         Random rr = new Random();
         ArrayList<WordItem> tmp = WordList.item;
 
-        while(true) {
-            break;
 
-        }
         quesion_image = findViewById(R.id.quesion_image);
         show_score = findViewById(R.id.ScoreView);
         show_score.setText(score+" คะแนน");
@@ -88,10 +85,10 @@ public class Game_activity extends AppCompatActivity implements View.OnClickList
         if(ck.getText().equals(this.answer_word)){
             score+=1;
             Toast t = Toast.makeText(this,"Correct",0);
-            t.show();
+            //t.show();
         }else{
             Toast t = Toast.makeText(this,"Incorrect",0);
-            t.show();
+            //t.show();
         }
         show_score.setText(score+" คะแนน");
 
