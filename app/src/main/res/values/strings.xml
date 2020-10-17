@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">QuizGame</string>
+    <string name="app_title">Quiz Game</string>
+    <string name="play">Play</string>
+    <string name="learn">Learn</string>
+</resources>
